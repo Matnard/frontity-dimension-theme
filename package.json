@@ -1,12 +1,14 @@
 {
   "name": "@matnard/dimension-theme",
-  "version": "1.0.0",
-  "description": "Frontity package created using the Frontity CLI.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/Matnard/frontity-dimension-theme#readme",
+  "description": "A fully responsive Frontity theme designed by HTML5 UP, implemented by Matnard and released for free under the Creative Commons license.",
   "keywords": [
     "frontity",
-    "frontity-theme"
+    "frontity-theme",
+    "HTML5UP"
   ],
-  "license": "Apache-2.0",
+  "license": "CC-BY-3.0",
   "dependencies": {
     "frontity": "^1.8.0"
   }

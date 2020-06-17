@@ -15,8 +15,9 @@ const Header = ({ state, transitionState }) => {
           <h1>{state.frontity.title}</h1>
           {/* <p>{state.frontity.description}</p> */}
           <p>
-            A fully responsive site template designed by HTML5 UP and released{" "}
-            <br />
+            A fully responsive Frontity theme designed by{" "}
+            <a href="https://html5up.net">HTML5 UP</a>,<br /> implemented by{" "}
+            <a href="https://www.matnard.com">Matnard</a> and released <br />
             for free under the Creative Commons license.
           </p>
         </div>

@@ -43,6 +43,12 @@ const Navigation = styled.nav`
     height: 100%;
     background: #ffffff;
   }
+
+  @media (max-width: 480px) {
+    &.use-middle:after {
+      display: none;
+    }
+  }
 `;
 
 const List = styled.ul`
@@ -82,6 +88,28 @@ const List = styled.ul`
 
       &:active {
         background-color: rgba(255, 255, 255, 0.175);
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+    min-width: 10rem;
+    max-width: 100%;
+
+    li {
+      border-left: 0;
+      border-top: solid 1px #ffffff;
+
+      &:first-child {
+        border-top: 0;
+      }
+
+      a {
+        height: 3rem;
+        line-height: 3rem;
+        min-width: 0;
+        width: 100%;
       }
     }
   }
